@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Form</title>
+        <style>
+            *{
+                font-family:'Franklin Gothic Medium';
+            }
+body {
+    background-color:#0c5064;
+}
+
+#header {
+background-color:#021e26;
+margin : 10px;
+height:90px;
+color: #fff;
+font-style:italic;
+text-align:center;
+padding:auto;
+white-space:nowrap;
+}
+form {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-left:80px ;
+    margin-right: 80px;
+    overflow: hidden;
+    background-color: rgb(248, 247, 247);
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 1.5em;
+    margin-bottom: 70px;
+    background-image:url(images/off.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.form-group input{
+    background-color: rgb(211, 211, 211);
+    border:none !important;
+    width: 50%;
+    height: 40px;
+    border-radius: 7px;
+}
+textarea{
+    background-color: rgb(211, 211, 211);
+    border:none !important;
+    border-radius: 7px;
+}
+H3,p{
+    font-size:larger;
+}
+button{
+    background-color: #5f85db;
+    width: 20%;
+    border:none;
+    height: 40px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top:30px;
+    margin-left: 300px !important;
+    margin-bottom: 30px !important;
+}
+.head {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+button:hover{
+    box-shadow: 10px 10px 5px #888 !important;
+}
+.sidebar{
+    background-color:#fff;
+float: right;
+margin-left: 10px;
+width:260px;
+margin-right: 80px;
+padding: 10px;
+}
+
+h2{
+    border-bottom: 1px black solid;
+    text-align: center;
+}
+section{
+    padding-top: 160px;
+}
+        </style>
+
+    </head>
+    <body class="login">
+        
+        <div id="header">
+            <span>
+<h1>C.E.O</h1>
+<p>Enterprise</p>
+</span>
+        </div>
+    
+   
+    <div class="sidebar">
+        <h2>About us</h2>
+        <p>We are a group of companies with top vetted developers in various fields.</p>
+        <p>We provide you with services such as;</p>
+        <ol>
+            <li>Web designs:</li>
+            <ul>
+                <li>Portfolio design</li>
+                <li>Business pages</li>
+                <li>Landing pages</li>
+                <li>e.t.c</li>
+            </ul>
+
+            <li>APP designs:</li>
+            <ul>
+                <li>Application packages(apk)</li>
+                <li>IOS apps development</li>
+                <li>e.t.c</li>
+            </ul>
+
+                <li>Content creating</li>
+            <ul>
+                <li>Create contents</li>
+                <li>Blogs</li>
+                <li>Technical documentation/write ups</li>
+                <li>e.t.c</li>
+            </ul>
+        </ol>
+        <section>
+            <h2>Contact us </h2>
+            <p>Email:doingcoolstuffs@gmail.com</p>
+            <p>Tel:+234(---)(---)(----)</p>
+            </div>
+        </section>
+        <!--form-->
+        <form>
+    
+        
+            <div class="head">
+            <H3>Login Form</H3>
+            </div>
+        
+        <div class="form-group">
+            <p>First Name</p>
+            <input placeholder="Your name" required>
+            <p>Email Address</p>
+            <input placeholder="Email Address" required>
+            <p>Tel/Number</p>
+            <input placeholder="Phone Number"required></br>
+            </div>
+        <div class="checkbox">
+<p>Services</p>
+<input type="checkbox"> Web design </input></br>
+<input type="checkbox"> App design </input></br>
+<input type="checkbox"> Content/Technical writings </input></br>
+        </div>
+        <div class="text">
+            <p>Message</p>
+<textarea cols="40" rows="10"placeholder="Describe your service"></textarea></br>
+<button type="button">Submit</button>
+        </div>
+        </form>
+    </body>
+</html>
